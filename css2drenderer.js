@@ -1,5 +1,8 @@
-
-import { Object3D } from 'three';
+import {
+	Matrix4,
+	Object3D,
+	Vector3
+} from 'three';
 class CSS2DObject extends Object3D {
 
 	constructor( element = document.createElement( 'div' ) ) {
