@@ -2,7 +2,7 @@ import {
 	Matrix4,
 	Object3D,
 	Vector3
-} from 'three';
+} from 'https://cdn.jsdelivr.net/npm/three/build/three.js';
 class CSS2DObject extends Object3D {
 
 	constructor( element = document.createElement( 'div' ) ) {
